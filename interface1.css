@@ -1,0 +1,62 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#mockup {
+    width: 394px;
+    height: 464px;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-verou-1-26/blob/master/1.The-Field/4.HTML-CSS/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/simple/interface.12.png?token=AAFTYPC4SCNSITCGMEUCNLS7BBK7I);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 25;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.widget {
+
+    width: 394px;
+    height: 464px;
+
+    margin: 2px;
+    opacity: 90%;
+    border: 1px solid lightgray;
+    border-bottom: hidden;
+}
+
+.button {
+    background-color: darkolivegreen; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    height:25px;
+    width:80px;
+    opacity: 75%;
+}
+
+#button{
+    padding: 30px;
+}
+#text{
+    padding-left: 30px;
+    padding-top: -20px;
+}
