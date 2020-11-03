@@ -122,3 +122,12 @@ footer a {
 footer p{
     font-size: small;
 }
+@media (max-width: 500px) {
+    .content {
+
+        flex-direction: column;}
+
+
+
+
+}
