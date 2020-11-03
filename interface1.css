@@ -36,12 +36,16 @@ body {
     opacity: 90%;
     border: 1px solid lightgray;
     border-bottom: hidden;
+    font-family: 'Alata', sans-serif;
+}
+p{
+    color: gray;
 }
 
 .button {
     background-color: darkolivegreen; /* Green */
     border: none;
-    color: white;
+    color: gainsboro;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -59,4 +63,10 @@ body {
 #text{
     padding-left: 30px;
     padding-top: -20px;
+}
+h3{
+    opacity: 75%;
+}
+p{
+    font-size: small;
 }
