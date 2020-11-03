@@ -39,7 +39,8 @@ body {
     font-family: 'Alata', sans-serif;
 }
 p{
-    color: gray;
+    color: grey;
+    font-size: small;
 }
 
 .button {
@@ -66,7 +67,4 @@ p{
 }
 h3{
     opacity: 75%;
-}
-p{
-    font-size: small;
 }
